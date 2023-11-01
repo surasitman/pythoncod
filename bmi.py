@@ -5,13 +5,13 @@ bmi = weight/(height**2)
 print('BMI ของคุณ = {:.2f}'.format(bmi))
 
 if bmi<18.5 :
-    print('ต่ำกว่าเกณฑ์')
+    print('คุณต่ำกว่าเกณฑ์')
 elif bmi>=18.5 and bmi<=22.90:
-    print('ปกติสมส่วน')
+    print('คุณปกติสมส่วน')
 elif bmi>=23 and bmi<=24.90:
-    print('น้ำหนักเกิน')
+    print('คุณน้ำหนักเกิน')
 elif bmi>=25 and bmi<=29.90:
-    print('อ้วนระดับ 1')
+    print('คุณอ้วนระดับ 1')
 else:
-    print('อ้วนระดับ 2')
+    print('คุณอ้วนระดับ 2')
 
